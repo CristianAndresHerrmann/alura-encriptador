@@ -52,6 +52,7 @@ section{
 .informacion{
     margin-top: 30px;
     text-align: center;
+    font-family: 'Inter';
 }
 .contenedor-botones{
     margin-top: 50px;
@@ -149,9 +150,16 @@ section{
 footer{
     width: 100%;
     height: 50px;
-    text-align: center;
+    align-items: center;
     font-family: 'Inter';
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-ig{
+    width: 50px;
+    margin-left: 10px;
 }
 
 .ocultar{
